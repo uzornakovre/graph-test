@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import cytoscape from "cytoscape";
+import { json } from "./mock/example";
 
 function App() {
   return (
