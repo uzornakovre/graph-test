@@ -3,19 +3,23 @@
   height: fit-content;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
+}
 
-  .list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-  .button {
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    width: 100%;
-  }
+.link {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
 }
