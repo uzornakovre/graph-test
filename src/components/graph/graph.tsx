@@ -3,39 +3,7 @@ import styles from "./graph.module.scss";
 import NodeInfo from "../node-info/node-info";
 import { useEffect, useState } from "react";
 import { fetchData } from "../../utils/api";
-
-const stylesheet = [
-  {
-    selector: "node",
-    style: {
-      label: "data(label)",
-      width: 10,
-      height: 10,
-    },
-  },
-  {
-    selector: "edge",
-    style: {
-      label: "data(label)",
-      width: 1,
-    },
-  },
-  {
-    selector: "node[label]",
-    style: {
-      label: "data(label)",
-      "font-size": 4,
-    },
-  },
-  {
-    selector: "edge[label]",
-    style: {
-      label: "data(label)",
-      "curve-style": "bezier",
-      "font-size": 2,
-    },
-  },
-];
+import { stylesheet } from "./stylesheet";
 
 const Graph = () => {
   const [productData, setProductData] = useState<Array<any> | null>(null);
