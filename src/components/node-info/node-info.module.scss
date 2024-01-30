@@ -1,0 +1,16 @@
+.node_info {
+  position: absolute;
+  display: none;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid #000;
+  width: 200px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visible {
+  display: block;
+}
